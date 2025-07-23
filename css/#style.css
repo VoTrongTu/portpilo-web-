@@ -1,0 +1,22 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500px;
+    font-style:normal;
+}
+.layout-container{
+    width: 305px;
+    height: 1315px;
+    flex-shrink: 0;
+    background: #F0F0F6;
+}
+.sidebar{
+    width: 305px;
+    height: 1315px;
+    flex-shrink: 0;
+    background: #FFF;
+}
+.main_content{
+    display:flex;
+    flex:1;
+}
