@@ -9,6 +9,7 @@
     display:flex;
     min-height: 100vh;
     background: #F0F0F6;
+    width: 1440px;
 }
 .sidebar{
     
@@ -29,7 +30,8 @@
     flex-shrink: 0;
     min-height: 100vh;
     background:#FAFAFA;
-   
+    padding-top: 0px;
+   margin-left: 27px;
 }
 .profile{
     display: flex;
@@ -184,4 +186,161 @@
     display: flex;
     justify-content: center;
     margin-bottom: 9px;
+}
+.icon{
+    width:15px;
+    height:15px
+}
+.extra-skill{
+    display: flex;
+    position: relative;
+    color: #767676;
+    font:normal 400 15px Inter;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-left: 40px;
+    gap:15px;
+    margin-bottom: 5px;
+    text-transform:capitalize;
+}
+.download{
+    display: flex;
+    position: relative;
+    background: #FFB400;
+    width: 220px;
+    height:40px;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+.download p{
+    width: 108px;
+    height: 19.429px;
+    font:normal 600 14px Inter;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.down{
+    width: 14px;
+    height: 16px;
+    
+}
+/* phan main content */
+.profile-introduce{
+    display: flex;
+    position: relative;
+    background: #FFF;
+    width: 970px;
+    height: 467px;
+    margin-left: 30px;
+    margin-right: 27px;
+}
+.intro1{
+    position: relative;
+    font: normal 1 48px Inter;
+    
+    padding-top: 93px;
+    line-height: 123.6%;
+}
+.text-color{
+    display: flex;
+}
+.intro2{
+    display: flex;
+    position: relative;
+    width: 424px;
+    height: 88px;
+    font: normal 400 16px Inter;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #767676;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+}
+.hire{
+    display: flex;
+    position: relative;
+    background:#FFB400;
+    width:154px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.frame{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+}
+.hir{
+    color: #2B2B2B;
+    font: normal 500 16px Inter;
+    line-height: normal;
+}
+.photo-intro{
+    display: flex;
+    position: relative;
+    padding-top: 8px;
+    padding-right: 57.6px;
+    width: 325.719px;
+    height: 459.09px;
+    background:lightgray;
+}
+.ellipse13{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.ellipse16{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    padding-top: 52px;
+}
+.ellipse16a{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    margin-top: 29px;
+    padding-left: 88px;
+}
+.rectangle52{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    padding-left: 373.8px;
+}
+.ellipse13a{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    padding-top: 379.96px;
+}
+.rectangle51{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    padding-top: 69.66px;
+}
+.polygon{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    stroke-width: 2px;
+    padding-top:427px ;
+    padding-right: 24px;
 }
