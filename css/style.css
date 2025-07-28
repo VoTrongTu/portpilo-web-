@@ -387,6 +387,7 @@
     width: 438px;
     height: 68px;  
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 .services-top, .services-bottom{
     display: flex;
@@ -665,5 +666,84 @@
 .dot3{
     display: flex;
    justify-content: center;
+   margin-top: 50px;
+   margin-bottom: 70px;
    
 }
+.education-program,.history-work{
+    background: #FFF;
+    width: 970px;
+    height: 632px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+   }
+   .program-courses{
+    padding-left: 37px;
+    padding-top: 51px;
+
+   }
+   .infor-courses{
+    display: flex;
+    gap:160px;
+
+   }
+   .timeline-infor{
+    gap: 25px;
+   }
+   .name-courses,.title-courses{
+    color: #2B2B2B;
+    font: normal 500 18px Inter;
+    line-height: 22.248px;
+    text-transform: capitalize;
+    
+   }
+   .learner-date{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+   }
+   .learner{
+    color: #2B2B2B;
+    font: normal 400 15px Inter;
+    line-height: 24px;
+    text-transform: capitalize;
+   }
+   .padding-date{
+    background: #FFB400;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 111px;
+    height: 18px;
+    flex-shrink: 0;
+   
+   }
+   .date{
+    color: #FFF;
+    font: normal 400 10px Inter;
+    line-height: 10.9px;
+   }
+   .details{
+    position: relative;
+    gap: 28px;
+   }
+   .description-courses{
+    width: 536px;
+    height: 100px;
+    flex-shrink: 0;
+    color: #767676;
+    font: normal 400 15px Inter;
+    line-height: 24px;
+    text-transform: capitalize;
+   }
+   .line-courses{
+    color: #F0F0F6;
+    width: 901px;
+    height: 1.5px;
+   }
+   
+
+
