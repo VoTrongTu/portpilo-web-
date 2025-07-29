@@ -15,44 +15,37 @@
 .sidebar{
    
     width: 305px;
-    height:1725px;
+    height:1555px;
     background: #FFF;
      
 }
 .main_content{
     display:flex;
     flex:1;
-  
 }
 .right-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
     width: 108px;
-    height: 1725px;
+    height: 1555px;
     flex-shrink: 0;
-    /* min-height: 100vh; */
     background:#FAFAFA;
     padding-top: 0px;
-    margin-left: 27px;
-  
 }
-/* css sidebar */
+                                /* css sidebar */
 .profile{
     display: flex;
+    position: relative;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 .profile-img{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     align-items: center;
-    padding-left: 74px;
-    padding-top: 50px;
-    padding-right: 81;
-    margin-bottom: 25px;
-    margin:0;
+    
 }
  .img-profile{
     display: flex;
@@ -60,26 +53,29 @@
     position: relative;
     align-items: center;
     object-fit: cover;
-    margin:0;
  }
- .avai-profile{
-    display: flex;
-    justify-content: center;
+
+  .dot{
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    background: #7EB942;
     position: relative;
-    align-items: center;
-    padding-top:116px;
-    margin-left:-38;
-    margin:0;
- }
+    border-radius: 100%;
+    margin-top: 116px;
+   transform: translateX(-210%);
+    
+ } 
+ 
 .name{
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
     color: #2B2B2B;
     font:normal 500 18px Inter;
     line-height: 22.248px;
     text-transform: capitalize;
-    margin-top: 31px;
-    margin-bottom: 15px;
 }
 .title{
     color: #767676;
@@ -90,74 +86,61 @@
     font-feature-settings: 'calt' off; 
     justify-content: center;
     display: flex;
-    margin-bottom: 20px;
-    margin:0;
+   
 }
 
-.profile-avai{
-    display: flex;
-    position:relative;
-    padding-top: 116px;
-    padding-right: 91px;
-}
 .profile-app{
     display: flex;
+    align-items: center;
+    justify-content: center;
     position:relative;
-    padding-left: 45px;
-    gap:15px;
-    margin:0;
+    gap: 15px;
 }
 .layout-icon img{
     width:14px;
     height: 14px;
 }
 .layout-icon{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:#FFB400;
-        width:24px; height:24px;
-        border-radius:100%;
-        margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color:#FFB400;
+    width:24px; height:24px;
+    border-radius:100%;
+    /* margin-bottom: 30px; */
 }
 .line{
     position: relative;
     width: 220px;
     height: 1.5px;
     align-items: center;
-    margin: 0 auto;
-    margin-bottom: 25px;
-    /* margin-top: 25px; */
+    justify-content: center;
     margin-top: 25px;
 }
 .personal-infor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     color: #2B2B2B;
     font: normal 400 15px Inter;
     line-height: 24px; /* 160% */
     text-transform: capitalize;
-    padding-left: 45px;
-    margin:0;
 }
 .row1{
     display: flex;
     gap: 163px;
     align-items: center; 
-    margin-bottom: 10px;
-    margin:0;
 }
  .row2{
     display: flex;
     gap: 116px;
     align-items: center;
-     margin-bottom: 10px;
-     margin:0;
 }
 .row3{
     display: flex;
     gap: 76px;
     align-items: center;
-    margin-bottom: 10px;
-    margin:0;
 }
 .row3 .value-label{
     color:#7EB942;
@@ -166,7 +149,6 @@
     display: flex;
     gap: 20px;
     align-items: center; 
-    margin-bottom: 25px;
     margin:0;
 } 
 .label{
@@ -180,11 +162,10 @@
 }
 .skill-section{
     position: relative;
+    display: flex;
+    justify-content: left;
     color: #2B2B2B;
     font: normal 500 18px Inter;
-    padding-left: 40px;
-    margin-bottom: 15px;
-    margin:0;
 }
 
 
@@ -194,37 +175,46 @@
     position: relative;
     color: #767676;
     font:normal 400 15px Inter;
-    padding-left: 40px;
-    padding-right: 45px;
     line-height: 24px; /* 160% */
     text-transform: capitalize;
-    margin-bottom: 5px;
     margin:0;
 }
 .line-percent{
     display: flex;
     justify-content: center;
-    margin-bottom: 9px;
-    margin:0; 
      
 }
 .icon{
     width:15px;
     height:15px
 }
+.section-ex-skill{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.content-extra-skill{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .extra-skill{
     display: flex;
     position: relative;
+    align-items: center;
     color: #767676;
     font:normal 400 15px Inter;
     line-height: 24px;
     text-transform: capitalize;
-    padding-left: 40px;
-    gap:15px;
-    margin-bottom: 5px;
+    gap:15px; 
     text-transform:capitalize;
-    margin:0;
 }
+.extra-skill p {
+    margin: 0; /* bỏ margin mặc định */
+    padding: 0;
+}
+
 .download{
     display: flex;
     position: relative;
@@ -235,9 +225,6 @@
     align-items: center;
     gap: 9px;
     margin-top: 35px;
-    margin-bottom: 25px;
-    /* margin-left: 40px; */
-    margin:0 auto;
 }
 .download p{
     width: 108px;
@@ -251,7 +238,7 @@
     height: 16px;
     
 }
-/* PHAN MAIN CONTENT */
+                    /* PHAN MAIN CONTENT */
 .profile-introduce{
     display: flex;
     position: relative;
@@ -374,7 +361,7 @@
     font: normal 700 32px Inter;
     line-height: 123.6%;
     text-transform: capitalize;
-    text-align: center;     /*  Căn giữa nội dung văn bản */
+    text-align: center;     
     margin-top: 138px;
     margin-bottom: 25px;
 }
@@ -461,8 +448,6 @@
     justify-content: center;
     flex-direction: column;
     text-align: center; 
-    /* padding-top: 54px;
-    padding-left: 31px; */
 }
 .tier-gold{
     position: relative;
@@ -510,16 +495,8 @@
     line-height: 24px; /* 160% */
     text-transform: capitalize;
     margin-bottom: 8px;
-    /* text-align: center;
-    justify-content: center; */
-    /* margin: 0; */
 }
 .caption{
-    /* display: flex;
-    text-align: center;
-    justify-content: center;
-    text-align: center;
-    position: relative; */
     padding-left: 31; 
     width: 248px;
     height: 48px;
@@ -873,12 +850,10 @@
     text-transform: capitalize;
 }
 .box-infor{
-    width: 570px;
-    height: 665px;
+     width: 550px;
+    height: 665px; 
     flex-shrink: 0;
     background: #FFF;
-    /* display: flex;
-    align-items: center; */
     padding-left: 25px;
 }
 .contact-infor{
@@ -886,6 +861,7 @@
     position: relative;
     display: flex;
     flex-direction: column; 
+    
 }
 .contact{
     gap: 18px;
@@ -938,8 +914,6 @@
     height: 210px;
     flex-shrink: 0;
     background: #FFF;
-    /* display: flex;
-   flex-direction: column; */
 }
 .padding-icon-location,
 .padding-icon-mail,
@@ -1033,4 +1007,60 @@
     background: #FFF;
     
 }  
- 
+ /* right-nav */
+ .navigation-bar{
+    display: flex;
+    flex-direction: column;
+    gap: 212px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 39px;
+ }
+ .contrast-icon{
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+ }
+ .nav-Menu-Icons{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+ }
+ .home-icon,
+ .cv-icon,
+ .portfolio-icon,
+ .Blog-icon,
+ .contact-icon{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+ }
+ .file-code-icon{
+    width: 16.5px;
+    height: 18px;
+    flex-shrink: 0;
+ }
+.padding-home{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #FFB400;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.padding-file-code,
+.padding-cv,
+.padding-portfolio,
+.padding-blog-icon,
+.padding-contact{
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    background: #F0F0F6;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
