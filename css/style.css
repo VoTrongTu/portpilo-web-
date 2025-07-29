@@ -877,8 +877,8 @@
     height: 665px;
     flex-shrink: 0;
     background: #FFF;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     padding-left: 25px;
 }
 .contact-infor{
