@@ -856,6 +856,7 @@
     position: relative;
     margin-left: 30px;
     margin-top: 70px;
+    margin-bottom: 71px;
 }
 .leave-infor{
     gap: 50px;
@@ -864,9 +865,6 @@
     flex-direction: column;
     /* padding-top: 25px; */
    
-}
-.content-leave-infor{
-
 }
 .title-leave-infor,.title-contact-infor{
     color: #2B2B2B;
@@ -896,12 +894,7 @@
     flex-direction: column;
     
 }
-.location,.email,.phone-number{
-    width: 370px;
-    height: 210px;
-    flex-shrink: 0;
-    background: #FFF;
-}
+
 .input-oject{
     color: #767676;
     font: normal 500 18px Inter;
@@ -938,13 +931,19 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.location{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.location,
+.mail,
+.phone{
+    width: 370px;
+    height: 210px;
+    flex-shrink: 0;
+    background: #FFF;
+    /* display: flex;
+   flex-direction: column; */
 }
-.padding-icon-location{
+.padding-icon-location,
+.padding-icon-mail,
+.padding-icon-phone{
     width: 40px;
     height: 40px;
     flex-shrink: 0;
@@ -953,9 +952,85 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 165px;
 }
-.icon-location{
+.icon-location,
+.icon-mail,
+.icon-phone{
     width: 18px;
     height: 18px;
     flex-shrink: 0;
 }
+.row1-loca,.row2-loca,.row3-loca,
+.row1-mail,.row2-mail,.row3-mail,
+.row1-phone,.row2-phone,.row3-phone{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-loca,
+.contact-mail,
+.contact-phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap: 31px;
+    padding-top: 25px;
+}
+.content-loca,
+.content-mail,
+.content-phone{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 25px;
+    gap: 16px;
+}
+.name-loca,
+.name-mail,
+.name-phone{
+    color: #767676;
+    font: normal 500 18px Inter;
+    line-height: 123.6%; /* 22.248px */
+    text-transform: capitalize;
+    margin: 0;
+}
+.value-loca,
+.value-mail,
+.phone-number{
+    color: #767676;
+    font: normal 400 15px Inter;
+    text-align: right;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    margin: 0;
+}
+.map{
+    width: 970px;
+    height: 300px;
+    flex-shrink: 0;
+    background: lightgray;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+.logo-section{
+    display: flex;
+    justify-content: center;
+    gap: 144px;
+    margin-bottom: 70px;
+}
+
+/* FOOTER */
+ .container-footer{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    width: 970px;
+    height: 60px;
+    flex-shrink: 0;
+    background: #FFF;
+    
+}  
+ 
