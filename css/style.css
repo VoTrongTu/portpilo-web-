@@ -1046,7 +1046,7 @@
     flex-shrink: 0;
     background: #FFB400;
     border-radius: 100%;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     display: flex;
 }
@@ -1063,4 +1063,45 @@
     align-items: center;
     justify-content: center;
     display: flex;
+}
+.tooltip-and-home{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+    
+}
+.tooltip-align{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+}
+.tooltip {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: black;
+    color: white;
+    width: 65px;
+    height: 33px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    font: normal 500 12px Inter;
+    line-height: normal;
+
+}
+
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
 }
